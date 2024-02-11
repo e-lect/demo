@@ -44,8 +44,6 @@ To see a summary of the changes in the repo, run `git log` or `git log --oneline
 
 In Git (and GitHub), there's always the `main` branch (default name now &ndash; used to be called `master`), which is the most up-to-date and production-ready version of your code.
 
-![Branches](./branching.webp)
-
 Sometimes, we may need to work on a feature separately from `main` so we don't obstruct the progress of other team members. In other words, we would like to _branch off_ `main` and create a "parallel universe" in Git. When we are ready to update `main` with our changes, we `merge` our branch onto `main`, usually through a [pull request](#pull-requests).
 
 To **create a branch**:
